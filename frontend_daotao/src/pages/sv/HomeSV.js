@@ -1,13 +1,12 @@
-import "../css/HomeUser.css" ; 
-import Nav from "../components/Nav"; 
-import SlideBar from "../components/SlideBar";
-
-function HomeUser(){
+import "../../css/sv/HomeSV.css";
+import SideBar from "../../components/SideBar";
+import HeaderNav from "../../components/HeaderNav";
+function HomeSV(){
     return(
         <>
-            <Nav></Nav>
+            <SideBar></SideBar>
             <section class="home-section">
-                <SlideBar></SlideBar>
+                <HeaderNav></HeaderNav>
                 <div class="home-content">
                     <div class="overview-boxes">
                         <div class="box">
@@ -178,4 +177,4 @@ function HomeUser(){
     )
 }
 
-export default HomeUser ; 
+export default HomeSV ; 
