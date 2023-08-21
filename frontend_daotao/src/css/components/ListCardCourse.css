@@ -1,0 +1,52 @@
+.course-list-card {
+    margin-top: 25px;
+    display: inline-flex;
+    width: 100%; 
+    column-gap: 18px;
+    justify-content: center;
+
+    /* background-color: red; */
+}
+
+.course-card {
+    background-color: #fff;
+    display: block;
+    width: 300px; 
+    /* background-color: red; */
+}
+.course-card .image-box img{
+    width: 100%;
+    height: 280px;
+    border-radius: 8px 8px 0 0;
+
+}
+.course-card .profile-details{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    font-family: "Poppins", sans-serif;
+
+}
+.course-card .profile-details img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.course-card .profile-details .name{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px;
+    margin-top: 5px;
+    padding: 2px;
+
+}
+.course-card .profile-details .job {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4d4d4d;
+    padding: 2px;
+    margin: 2px;
+}
