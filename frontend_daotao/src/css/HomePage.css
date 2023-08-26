@@ -190,4 +190,13 @@
   color: #333;
 }
 
+.home-content .title-card{
+  font-size: 28px;
+  justify-content: center;
+  display: flex;
+}
+body{
+  padding: 0px !important; 
+  overflow: visible !important; 
+}
 

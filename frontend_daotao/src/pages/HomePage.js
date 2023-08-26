@@ -6,7 +6,8 @@ function Home() {
         <>
             <section className="home-section fullWidth">
                     <HeaderNav></HeaderNav>
-                <div className="home-content">                    
+                <div className="home-content">  
+                    <h3 className="title-card">POPULAR COURSE</h3>                  
                     <ListCardCourse></ListCardCourse>
                 </div>
             </section>
