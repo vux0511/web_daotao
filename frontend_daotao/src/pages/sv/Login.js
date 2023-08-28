@@ -10,8 +10,8 @@ import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
 
 
-import "../css/Login.css" ; 
-import axios from "../config/axios" ;
+import "../../css/sv/Login.css" ; 
+import axios from "../../config/axios" ;
 
 const Alert = React.forwardRef(function Alert(props, ref) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -69,7 +69,7 @@ function Login() {
                     setStatusAlert("success");
                     setMess(response.data.message) ;
                     setTimeout(handleSetInfo, 2000); 
-                    localStorage.setItem("currentUs er", JSON.stringify(response.data.data)) ; 
+                    localStorage.setItem("currentUser", JSON.stringify(response.data.data)) ; 
 
                     
                 }   
